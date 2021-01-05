@@ -3,12 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { BinaryConverter } from './binary-conversion/binary-converter.component';
+import { BinaryConverterComponent } from './binary-conversion/binary-converter.component';
+import { BorderRadiusControlComponent } from './border-radius-control/border-radius-control.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    BinaryConverter
+    BinaryConverterComponent,
+    BorderRadiusControlComponent
   ],
   imports: [
     BrowserModule,

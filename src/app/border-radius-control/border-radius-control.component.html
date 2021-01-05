@@ -1,0 +1,16 @@
+<div class="box"
+[style.border-top-left-radius.px]="topLeft"
+[style.border-top-right-radius.px]="topRight"
+[style.border-bottom-left-radius.px]="bottomLeft"
+[style.border-bottom-right-radius.px]="bottomRight"  
+></div>
+<nav class="nav navbar">
+    <label>Top Left:</label>
+    <input type="range" min="1" max="100" (change)="topLeftValue($event)" class="slider">
+    <label>Top Right:</label>
+    <input type="range" min="1" max="100" (change)="topRightValue($event)" class="slider">
+    <label>Bottom Left:</label>
+    <input type="range" min="1" max="100" (change)="bottomLeftValue($event)" class="slider">
+    <label>Bottom Right</label>
+    <input type="range" min="1" max="100" (change)="bottomRightValue($event)" class="slider">
+</nav>
