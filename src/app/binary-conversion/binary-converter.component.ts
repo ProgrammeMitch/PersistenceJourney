@@ -8,6 +8,7 @@ import { Component } from '@angular/core'; //The Component Directive has to be i
 
 export class BinaryConverter {                                      //Initialize Binary Converter
     num: number;                                                    //Declare variable num
+    warn: string;
 
     mathBin() {   
         return parseInt(this.num.toString(10), 2);
@@ -26,11 +27,17 @@ export class BinaryConverter {                                      //Initialize
 
     binaryValidate(evt: KeyboardEvent) {
         const value = evt.key;
+        if (value !== "1" && value !== "0") {
+            this.warn = "Please enter a valid input";
+        } else {
+            this.warn = " "
+        }
         return value === "1" || value === "0";
                                                                     /**
                                                                      * This function recives a KeyboardEvent
                                                                      * The key struck must be binary
                                                                      * return true is value is binary
                                                                      */
+
     }
 }

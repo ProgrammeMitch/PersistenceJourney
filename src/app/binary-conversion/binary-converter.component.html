@@ -1,8 +1,21 @@
-<div class="col">
-    <div class="col-4"></div>
-    <div class="col-4">
-        <input type="text" (input) = "number($event)" (keypress) = "binaryValidate($event)">
-        <p>{{ mathBin() }}</p>
+<div class="container">
+    <div class="col-6"></div>
+    <div class="col-2 justify-content-center">
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a>PROJECT NAME</a>
+                </div>
+                <ul class="nav nav-pills">
+                    <li role="presentation" class="active"><a href="#">Binary Converter</a></li>
+                    <li role="presentation"><a href="#">Profile</a></li>
+                    <li role="presentation"><a href="#">Messages</a></li>
+                </ul>
+            </div>
+        </nav>
+        <input class="form-control" type="text" (input)="number($event)" (keypress)="binaryValidate($event)">
+        <p class="warning">{{ warn }}</p>
+        <h3><span class="label label-default col-md-offset-3">{{ mathBin() }}</span></h3>
     </div>
-    <div class="col-4"></div>
+    <div class="col-6"></div>
 </div>
