@@ -6,7 +6,7 @@ import { Component } from '@angular/core'; //The Component Directive has to be i
     styleUrls: ['./binary-converter.component.scss']
 })
 
-export class BinaryConverter {                                      //Initialize Binary Converter
+export class BinaryConverterComponent {                                      //Initialize Binary Converter
     num: number;                                                    //Declare variable num
     warn: string;
 
