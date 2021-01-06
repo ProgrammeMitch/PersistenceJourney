@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./border-radius-control.component.scss']
 })
 export class BorderRadiusControlComponent implements OnInit {
-  topLeft: number;
+  topLeft: number;                                                //create variables to house the radius of the border
   topRight: number;
   bottomLeft: number;
   bottomRight: number;
@@ -16,6 +16,7 @@ export class BorderRadiusControlComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  //Create methods to revieve events from the html template
   topLeftValue(evt: any) {
     this.topLeft = evt.target.value;
   }
