@@ -1,0 +1,58 @@
+[33mcommit ade32b5c44e6d995a12c8251fc7cc54ad5e10432[m[33m ([m[1;36mHEAD -> [m[1;32mcalculator[m[33m, [m[1;31morigin/calculator[m[33m)[m
+Author: ProgrammeMitch <mitchmbagha@gmail.com>
+Date:   Thu Jan 28 12:44:29 2021 +0100
+
+    1. Style for calculator (SCSS)
+    2. Template for calculator (HTML)
+    3. TypeScript for calculator (TS)
+
+[33mcommit 245a8dd9f8a5dbe0811c2d51d515b7ea26da94cb[m[33m ([m[1;32mbinary-converter[m[33m)[m
+Author: ProgrammeMitch <mitchmbagha@gmail.com>
+Date:   Wed Jan 6 11:43:39 2021 +0100
+
+    working routes
+
+[33mcommit 69a692af28284b83a81934ecf0c6f61ab10d156b[m
+Merge: ca97c22 7e4f6e2
+Author: ProgrammeMitch <mitchmbagha@gmail.com>
+Date:   Wed Jan 6 10:38:46 2021 +0100
+
+    Merge branch 'border-radius-control' into binary-converter
+
+[33mcommit ca97c22bbcdadcd7b04f28f54c14b3654258b0e0[m
+Author: ProgrammeMitch <mitchmbagha@gmail.com>
+Date:   Wed Jan 6 10:33:20 2021 +0100
+
+    creating calculator
+
+[33mcommit 7e4f6e2924780d6bd5324765487e71bebc59dc84[m[33m ([m[1;31morigin/border-radius-control[m[33m, [m[1;32mborder-radius-control[m[33m)[m
+Author: ProgrammeMitch <mitchmbagha@gmail.com>
+Date:   Wed Jan 6 10:26:39 2021 +0100
+
+    leaving comments
+
+[33mcommit 3898b2e6b050eb70983c1051f8df3dfee362f19c[m
+Author: ProgrammeMitch <mitchmbagha@gmail.com>
+Date:   Tue Jan 5 20:21:10 2021 +0100
+
+    border radius
+
+[33mcommit fdfecb2cf71fd243630b4286dfb3f74d62c81cb1[m
+Author: ProgrammeMitch <mitchmbagha@gmail.com>
+Date:   Tue Jan 5 20:20:45 2021 +0100
+
+    Route Introduction
+    Name Correction
+
+[33mcommit e3e9e4efe2a80a612cc47764eeb7e1c75d699a62[m[33m ([m[1;31morigin/binary-converter[m[33m)[m
+Author: ProgrammeMitch <mitchmbagha@gmail.com>
+Date:   Tue Jan 5 05:45:00 2021 +0100
+
+    boostrap installed
+    template update
+
+[33mcommit 463481078cd338587bc3710de430ea4f9e29b1a0[m
+Author: Chinonso Mbagha <mitchmbagha@gmail.com>
+Date:   Mon Jan 4 14:06:55 2021 +0100
+
+    First commit
