@@ -1,1 +1,21 @@
-<p>calculator works!</p>
+<div class="containers" (click)="clearButton()">{{ displayFinalAnswer }}</div>
+<div class="container">
+    <div class="items">
+        <button class="primary" (click)="divideButton()">/</button>
+    </div>
+    <div class="items"><button class="primary" (click)="addButton()">+</button></div>
+    <div class="items"><button class="primary" (click)="multiplyButton()">x</button></div>
+    <div class="items"><button class="primary" (click)="minusButton()">-</button></div>
+    <div class="items"><button class="primary" (click)="button($event)">1</button></div>
+    <div class="items"><button class="primary" (click)="button($event)">2</button></div>
+    <div class="items"><button class="primary" (click)="button($event)">3</button></div>
+    <div class="items"><button class="primary" (click)="button($event)">4</button></div>
+    <div class="items"><button class="primary" (click)="button($event)">5</button></div>
+    <div class="items"><button class="primary" (click)="button($event)">6</button></div>
+    <div class="items"><button class="primary" (click)="button($event)">7</button></div>
+    <div class="items"><button class="primary" (click)="button($event)">8</button></div>
+    <div class="items"><button class="primary" (click)="button($event)">9</button></div>
+    <div class="items"><button class="primary" (click)="button($event)">0</button></div>
+    <div class="items"><button class="primary" (click)="decimalButton($event)">.</button></div>
+    <div class="items"><button class="primary" (click)="equalsButton()">=</button></div>
+</div>

@@ -1,0 +1,43 @@
+//container class that initialises flex for buttons
+.container {
+    display: flex;
+    width: 50%;
+    background-color: red;
+    flex-direction: row;
+    flex-wrap: wrap;
+    //justify-content: center;
+    align-content: flex-start; 
+}
+
+//container class that initialises flex for display
+.containers {
+    display: flex;
+    margin-left: 25%;
+    width: 50%;
+    height: 70px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+    background-color: rgb(247, 236, 236);
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start; 
+}
+
+//items class for decoration of buttons
+.items {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 4rem;
+    order: 4;
+    background-color: pink;
+    width: 22.8%;
+    padding: 5%;
+    margin: 3px;
+    border-radius: 100px;
+}
+
+//decorate all buttons
+button {
+    background-color: transparent;
+    border: transparent;
+}
