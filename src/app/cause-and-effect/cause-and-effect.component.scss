@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    width: 100%;
+    background-color: rgb(2, 2, 2);
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 300px;
+    align-content: flex-start; 
+}
+
+.containers {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    background-color: rgba(247, 236, 236, 0.603);
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    //align-content: ;; 
+}
+
+a{
+    color:rgb(2, 2, 2);
+    cursor: pointer;
+}

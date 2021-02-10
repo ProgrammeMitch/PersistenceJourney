@@ -1,0 +1,22 @@
+<label for="Covid">COVID-19 Status</label>
+<div class='container'>
+<div class='containers'>
+    <ul>
+        <li><a (click)="showDetails()" > Nass/21/01</a></li>
+        <li><a (click)="showDetails()" > Nass/21/02</a></li>
+        <li><a (click)="showDetails()" > Nass/21/03</a></li>
+        <li><a (click)="showDetails()" > Nass/21/04</a></li>
+    </ul> 
+</div>
+<div *ngIf="buttonClick" class='containers'>
+    <ol>
+        <li>Name: {{ str.Name }}</li>
+        <li>Age: {{ str.Age }}</li>
+        <li>COVID Status: {{ str.Status }}</li>
+        <li>Is the person a dead guy: {{ str.Dead }}</li>
+    </ol>
+    <h5></h5><br>
+    <h5></h5>
+</div>
+</div>
+

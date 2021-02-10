@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { BinaryConverterComponent } from './binary-conversion/binary-converter.component';
 import { BorderRadiusControlComponent } from './border-radius-control/border-radius-control.component';
 import { CalculatorComponent } from './calculator/calculator.component';
+import { CauseAndEffectComponent } from './cause-and-effect/cause-and-effect.component';
 
 
 
@@ -16,7 +17,8 @@ import { CalculatorComponent } from './calculator/calculator.component';
     AppComponent,
     BinaryConverterComponent,
     CalculatorComponent,
-    BorderRadiusControlComponent
+    BorderRadiusControlComponent,
+    CauseAndEffectComponent
 
   ],
   imports: [
